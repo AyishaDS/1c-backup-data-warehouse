@@ -1,10 +1,10 @@
-# 1c-backup-data-warehouse
+# 1C-backup-data-warehouse
 
 A reproducible methodology for reverse-engineering an unlabeled 1C ERP backup into a documented, analysis-ready star schema — built as a foundation layer for integration with other data sources.
 
 ## Problem & Challenge
 
-A company that uses only the 1C program for customer records and accounting wants to analyze its customer data. There is no in-house developer, and no changes can be made to the live system. This is common for small and mid-sized businesses — especially in beauty, wellness, and clinic sectors in the CIS region.
+A company keeps its customer records and accounting in 1C:Enterprise and wants to analyze its customer data. There is no in-house developer, and no changes can be made to the live system. This is common for small and mid-sized businesses — especially in beauty, wellness, and clinic sectors in the CIS region.
 
 The chosen method was to restore an IT-provided backup file into a separate SQL Server environment. But when a 1C backup opens in a different environment, metadata relationships are lost. Table and column names appear unreadable (AccumRgXXX, ReferenceXX, DocumentXX), with system and user tables mixed together.
 
