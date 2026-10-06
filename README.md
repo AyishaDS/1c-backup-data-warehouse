@@ -19,7 +19,7 @@ Restored into a separate SQL Server, 1C metadata is gone: tables appear as
 ## Result
 - 5 dimension tables, 1 fact tables  
 - Covers: customers, employees, services, revenue
-- Business questions it answers: 
+
 
 ## Documentation
 - [Anatomy of a 1C backup](docs/01-1c-backup-anatomy.md)
