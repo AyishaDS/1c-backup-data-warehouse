@@ -17,7 +17,7 @@ Restored into a separate SQL Server, 1C metadata is gone: tables appear as
 5. Documentation, including assumptions that turned out wrong
 
 ## Result
-- 5 dimension tables, 1 fact tables  
+- 6 dimension tables, 1 fact table
 - Covers: customers, employees, services, revenue
 
 
