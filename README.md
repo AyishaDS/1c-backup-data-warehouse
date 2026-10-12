@@ -24,7 +24,7 @@ Restored into a separate SQL Server, 1C metadata is gone: tables appear as
 ## Documentation
 - [Anatomy of a 1C backup](docs/01-1c-backup-anatomy.md)
 - [Reverse-engineering method](docs/02-reverse-engineering.md)
-- [Star schema design](docs/04-star-schema-design.md)
+- [Star schema design](docs/03-star-schema-design.md)
 
 ## Scope
 Static archival dataset, one-time load. No incremental logic, no SCD handling.
